@@ -3,6 +3,8 @@
     <string name="hello_world">Hello World!</string>
     <string name="count_0">Count 0</string>
     <string name="click_me">Click Me</string>
+    <string name="female">FeMale</string>
+    <string name="male">Male</string>
 
     <string-array name="names">
         <item >Select Names</item>

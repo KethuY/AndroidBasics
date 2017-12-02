@@ -1,4 +1,4 @@
-package com.kethu.basicsapp;
+package com.kethu.basicsapp.helpers;
 
 import android.content.Context;
 import android.widget.Toast;
