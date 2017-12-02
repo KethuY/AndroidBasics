@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BasicsApp</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="count_0">Count 0</string>
+    <string name="click_me">Click Me</string>
+
+    <string-array name="names">
+        <item >Select Names</item>
+        <item >Satya</item>
+        <item >Kavya</item>
+        <item >Raghu</item>
+        <item >Srinu</item>
+        <item >Fayaz</item>
+    </string-array>
+</resources>
