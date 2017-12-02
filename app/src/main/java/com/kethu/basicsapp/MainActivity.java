@@ -69,11 +69,11 @@ public class MainActivity extends AppCompatActivity implements Listner, OnItemCl
         mOnItemClick = this;
         mListner = this;
         mNames = new ArrayList<>();
-     /*   mProgressDialog=new ProgressDialog(MainActivity.this);
+        mProgressDialog=new ProgressDialog(MainActivity.this);
         mProgressDialog.setTitle("Please wait data is loading....");
         mProgressDialog.setIndeterminate(false);
         mProgressDialog.show();
-*/
+
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -252,9 +252,7 @@ public class MainActivity extends AppCompatActivity implements Listner, OnItemCl
             mListViewAdapter = new MyListViewAdapter(MainActivity.this, mTennis.getPlayers(), mOnItemClick);
             mListview.setAdapter(mListViewAdapter);
         }
-
-
-        //    mProgressDialog.dismiss();
+        mProgressDialog.dismiss();
     }
 
 
